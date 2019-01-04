@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+CalculatorTestSuite,,,2019-01-03 18:52:29,2019-01-03 18:52:36,7.377s,PASSED
+,,,,,,
+Test Cases/CalculaltorTests/Addition,,,2019-01-03 18:52:29,2019-01-03 18:52:36,6.252s,PASSED
+"sendRequest(findTestObject(""CalculatorSOAPService/Addition""))",,,2019-01-03 18:52:30,2019-01-03 18:52:34,4.204s,PASSED
+"Response = sendRequestAndVerify(findTestObject(""CalculatorSOAPService/Addition""))",,,2019-01-03 18:52:34,2019-01-03 18:52:36,1.268s,PASSED
