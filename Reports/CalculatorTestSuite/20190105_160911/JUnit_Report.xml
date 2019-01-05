@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CalculatorTestSuite" time="6" tests="1" failures="0" errors="0">
+   <testsuite name="CalculatorTestSuite" tests="1" failures="0" errors="0" time="6" timestamp="2019-01-05 16:09:14" hostname="sarbarua - WKWIN5355264.global.publicisgroupe.net" id="Test Suites/CalculatorTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\sbaru1\\Katalon Studio\\TestProject1\\Reports\\CalculatorTestSuite\\20190105_160911"/>
+         <property name="logFiles" value="C:\\Users\\sbaru1\\Katalon Studio\\TestProject1\\Reports\\CalculatorTestSuite\\20190105_160911\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="sarbarua - WKWIN5355264.global.publicisgroupe.net"/>
+         <property name="hostAddress" value="192.168.0.3"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.10.0.1"/>
+      </properties>
+      <testcase name="Test Cases/CalculatorTests/Addition" classname="Test Cases/CalculatorTests/Addition" status="PASSED">
+         <system-out><![CDATA[2019-01-05 16:09:15 - [TEST_CASE][PASSED] - Test Cases/CalculatorTests/Addition: Test Cases/CalculatorTests/Addition
+
+2019-01-05 16:09:16 - [TEST_STEP][PASSED] - sendRequest(findTestObject("CalculatorSOAPService/Addition")): Send request successfully
+
+2019-01-05 16:09:19 - [MESSAGE][PASSED] - Send request successfully
+
+2019-01-05 16:09:19 - [TEST_STEP][PASSED] - Response = sendRequestAndVerify(findTestObject("CalculatorSOAPService/Addition")): Send request and verify the response successfully
+
+2019-01-05 16:09:20 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-01-05 16:09:21 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-01-05 16:09:21 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-01-05 16:09:21 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-01-05 16:09:21 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-01-05 16:09:21 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-01-05 16:09:21 - [TEST_STEP][PASSED] - getResponseText()).contains("AddResult"): null
+
+2019-01-05 16:09:21 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-01-05 16:09:21 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-05 16:09:14 - [TEST_SUITE][PASSED] - CalculatorTestSuite: Test Cases/CalculatorTests/Addition]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
