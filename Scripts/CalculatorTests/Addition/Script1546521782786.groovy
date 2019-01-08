@@ -17,3 +17,5 @@ WS.sendRequest(findTestObject('CalculatorSOAPService/Addition'))
 
 Response = WS.sendRequestAndVerify(findTestObject('CalculatorSOAPService/Addition'))
 
+WS.verifyResponseStatusCode(findTestObject(null), 0)
+
